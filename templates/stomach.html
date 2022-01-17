@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{%load static%}
+<html>
+<head>
+    <title>HTML dynamic table using JavaScript</title>
+    <script type="text/javascript" src="{% static 'stomach_final.js'%}"></script>
+</head>
+<body onload="Javascript:addTable()">
+
+<div id="mydata">
+<b>Current data in the system ...</b>
+<form action="/home/submit" method="post">
+    {% csrf_token %}
+
+
+<table id="myTableData"  border="1" cellpadding="2">
+    <tr>
+        <td><b>Symptoms</b></td>
+        <td><b>Select only the rquired checkboxes</b></td>
+    </tr>
+</table>
+ 
+
+<div id="myDynamicTable">
+</div>
+
+<button type="submit" >Submit</button>
+</form>
+</div>
+</body>
+</html>

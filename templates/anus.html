@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{%load static%}
+<html>
+<head>
+    <title>HTML dynamic table using JavaScript</title>
+    <script type="text/javascript" src="{% static 'anus.js'%}"></script>
+</head>
+<body onload="Javascript:addTable()">
+
+<div id="mydata">
+<b>Current data in the system ...</b>
+<table id="myTableData"  border="1" cellpadding="2">
+    <tr>
+        <td><b>Symptoms</b></td>
+        <td><b>Select only the rquired checkboxes</b></td>
+    </tr>
+</table>
+ 
+</div>
+<div id="myDynamicTable">
+</div>
+</body>
+</html>

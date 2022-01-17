@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login form </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<style>
+.newspaper {
+    -moz-column-count: 6; /* Firefox */
+    column-count: 2;
+}
+</style>
+<body>
+
+
+    <div class="hero">
+        <div class="main">
+            <ul>
+            </ul>
+        </div>
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn" ></div>
+                <button type="button" class="toggle" onclick="logn()" >Home</button>
+                <button type="button" class="toggle" onclick="registr()">Next</button>
+            </div>
+            <div class="social-icons">
+                <img src="images/orangegoogle.png">
+                <img src="images/download.jfif">
+                <img src="images/orangelinkedin.png">
+                <img src="images/orangeetwitter.jfif">
+            </div>
+            <form id ="Log" class="input">
+                <div class="newspaper">
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Default checkbox
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Checked checkbox
+                    </label>
+                  </div>
+                </form>
+    </div>
+    <script>
+        var x = document.getElementById("Log");
+        var y = document.getElementById("Register");
+        var z = document.getElementById("btn");
+
+        function registr(){
+            x.style.left="-500px";
+            y.style.left="50px";
+            z.style.left="110px";
+        }
+        function logn(){
+            x.style.left="50px";
+            y.style.left="450px";
+            z.style.left="0";
+        }
+    </script>
+</body>
+</html>

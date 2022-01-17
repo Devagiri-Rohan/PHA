@@ -1,0 +1,75 @@
+{
+    "skin": [
+        "Fungal infection",
+        "Allergy",
+        "Drug Reaction",
+        "Chicken pox",
+        "Acne"
+    ],
+    "stomach": [
+        "GERD",
+        "Peptic ulcer diseae",
+        "Gastroenteritis",
+        " Psoriasis",
+        "Impetigo "
+    ],
+    "lungs": [
+        "Bronchial Asthma",
+        "Tuberculosis",
+        "Pneumonia"
+    ],
+    "fever": [
+        "Malaria",
+        "Dengue",
+        "Typhoid"
+    ],
+    "others": [
+        "Hepatitis A",
+        "Hepatitis B",
+        "Hepatitis C",
+        "Hepatitis D",
+        "Hepatitis E",
+        "Alcoholic hepatitis",
+        "AIDS",
+        "Diabetes",
+        "Hypothyroidism",
+        "Hyperthyroidism"
+    ],
+    "nose": [
+        "Common Cold"
+    ],
+    "ear": [
+        "(vertigo) Paroymsal Positional Vertigo"
+    ],
+    "anus": [
+        "Dimorphic hemmorhoids(piles)"
+    ],
+    "urinary bladder": [
+        "Urinary tract infection"
+    ],
+    "bones and joints": [
+        "Osteoarthristis",
+        "Arthritis"
+    ],
+    "fatigue": [
+        "Hypoglycemia",
+        "Chronic cholestasis"
+    ],
+    "heart": [
+        "Hypertension",
+        "Heart attack"
+    ],
+    "head ": [
+        "Migraine"
+    ],
+    "brain, spine": [
+        "Cervical spondylosis",
+        "Paralysis (brain hemorrhage)"
+    ],
+    "eyes": [
+        "Jaundice"
+    ],
+    "legs": [
+        "Varicose veins"
+    ]
+}
